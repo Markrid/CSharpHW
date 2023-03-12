@@ -5,7 +5,7 @@ int[] GetArray(int size)
     int[] box = new int[size];
     for (int i = 0; i < size; i++)
     {
-        box[i] = new Random().Next(1000);
+        box[i] = new Random().Next(-10,10);
     }
     return box;
 }

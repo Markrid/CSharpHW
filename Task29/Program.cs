@@ -2,7 +2,7 @@
 
 Console.WriteLine("Добро пожаловать! Программа самостоятельно генерирует массив из N элемнтов и выводит их на экран.");
 Console.Write("Ввидите желаемое количество элементов: ");
-string firstText = Console.ReadLine();
+string firstText = Console.ReadLine()!;
 int size = int.Parse(firstText);
 if (size < 1)
 {
