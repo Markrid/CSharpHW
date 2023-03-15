@@ -103,9 +103,9 @@ void PrintRowMinSum(int[] array)
     {
         if (minNumber > array[i])
         {
-            minNumber=array[i];
+            minNumber = array[i];
             numberRowMinValue = i;
         }
     }
-    Console.Write($"Строка № {numberRowMinValue+1} имеет минимальную сумму элементов!");
+    Console.Write($"Строка № {numberRowMinValue + 1} имеет минимальную сумму элементов!");
 }
